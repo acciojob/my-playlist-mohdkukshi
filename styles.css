@@ -1,1 +1,97 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:  rgb(204, 204, 204);
+    height: 250vh;
+}
+
+.header {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h1 h2 {
+    text-align: center;
+}
+
+.song-list {
+    width: 60%;
+    border: 2px solid black;
+    margin-left: 380px;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#song-list {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+#song-list a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.playing {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.content {
+    background-color: white;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 425px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.player_one {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+video {
+    width: 950px;
+    border-radius: 15px;
+}
+
+
+.mp3songs {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mp3songs h2 {
+    font-size: 30px;
+}
+
+.maan-meeri {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.maan-meeri p {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+audio {
+    width: 90%;
+    margin-left: 15px;
+}
